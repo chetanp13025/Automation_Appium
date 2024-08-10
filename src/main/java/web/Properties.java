@@ -1,0 +1,91 @@
+package web;
+
+import java.util.ResourceBundle;
+
+public class Properties {
+	public static String usernameW;
+	public static String passwordW;
+	public static String Url;
+	public static String usernamefiledW;
+	public static String passfieldW;
+	public static String signinw;
+	public static String PRD;
+	public static String Create_PRD;
+	public static String Upload;
+	public static String Select_file;
+	public static String Finish_btn;
+	public static String File_status;
+	public static String APP_package;
+	public static String APP_activity;
+	public static String Appium_url;
+	public static String APK_userfield;
+	public static String APK_user;
+	public static String APK_passfield;
+	public static String APK_pass;
+	public static String APK_signin;
+	public static String Item_inward;
+	public static String Search_field;
+	public static String Tag_id_field;
+	public static String Grade_btn;
+	public static String Check_box1;
+	public static String Check_box2;
+	public static String Check_box3;
+	public static String Permission_btn;
+	public static String Capture_btn;
+	public static String Confirm_btn;
+	public static String Next_btn;
+	public static String Proceed_btn;
+	public static String Toat_field;
+	public static String AddItem_btn;
+	public static String Complete_IRD;
+	public static String IRD_message;
+	public static String Generate_GRN;
+	public static String GRN_message;
+	public static String Nokia_Permission;
+	public static String Redmi_permission;
+
+	public static void pro() {
+//	public static void main(String[] args) {
+		ResourceBundle rb = ResourceBundle.getBundle("flip");
+		usernameW = rb.getString("usernameweb");
+		passwordW = rb.getString("passwordweb");
+		Url = rb.getString("url");
+		usernamefiledW = rb.getString("unfieldweb");
+		passfieldW = rb.getString("pwfieldweb");
+		signinw = rb.getString("signinweb");
+		PRD = rb.getString("prd");
+		Create_PRD = rb.getString("create_prd");
+		Upload = rb.getString("upload");
+		Select_file = rb.getString("select_file");
+		Finish_btn = rb.getString("finish_btn");
+		File_status = rb.getString("status_file");
+		APP_package = rb.getString("app_pack");
+		APP_activity = rb.getString("app_acti");
+		Appium_url = rb.getString("appium_ur");
+		APK_userfield = rb.getString("apk_urfield");
+		APK_user = rb.getString("usernameweb");
+		APK_passfield = rb.getString("apk_passwordfield");
+		Search_field = rb.getString("search");
+		APK_pass = rb.getString("passwordweb");
+		APK_signin = rb.getString("apk_signin");
+		Item_inward = rb.getString("inward");
+		Tag_id_field = rb.getString("tag_field");
+		Grade_btn = rb.getString("grade_item");
+		Check_box1 = rb.getString("check_1");
+		Check_box2 = rb.getString("check_1");
+		Check_box3 = rb.getString("check_1");
+		Permission_btn = rb.getString("permission");
+		Capture_btn = rb.getString("capture");
+		Confirm_btn = rb.getString("confirm");
+		Next_btn = rb.getString("next");
+		Proceed_btn = rb.getString("proceed");
+		Toat_field = rb.getString("toat");
+		AddItem_btn = rb.getString("add_item");
+		Complete_IRD = rb.getString("ird");
+		IRD_message = rb.getString("ird_msg");
+		Generate_GRN = rb.getString("grn");
+		GRN_message = rb.getString("grn_msg");
+		Nokia_Permission = rb.getString("nokia_per");
+		Redmi_permission= rb.getString("redmi_per");
+	}
+}
